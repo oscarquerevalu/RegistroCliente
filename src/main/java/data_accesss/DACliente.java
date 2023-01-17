@@ -100,7 +100,7 @@ public class DACliente {
             }
             if(rsCombo!=null){rsCombo.close();}
             operacion3.cerrarConexion();
-            return lista;  
+            return lista;
         } catch (SQLException ex) {
             System.out.println(ex.getMessage());
             operacion3.cerrarConexion();

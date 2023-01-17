@@ -38,9 +38,9 @@ public class Configuracion extends javax.swing.JDialog {
         if(!propiedades.exists()){
             archivo_propiedades=new Propiedades(
 //            "jdbc:sqlserver://10.110.21.81;encrypt=false;databaseName=DBFREST;user=sa; password=masterkey;",
-            "jdbc:sqlserver://localhost;encrypt=false;databaseName=FMEDITERRANEO;user=sa; password=P@ssword2019;",
+            "jdbc:sqlserver://localhost;encrypt=false;databaseName=RPANADERIA;user=sa; password=P@ssword2019;",
             "administrador@mediterraneo.pe",
-            "FRONT REST"        
+            "FRONT RETAIL"        
             );
             new Util().escribirPropiedades(archivo_propiedades);
         }else{
